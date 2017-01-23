@@ -90,7 +90,7 @@ public class CellTest {
 		cells[2][2]=c;
 		cells[2][1]=x;
 		cells[2][3]=y;
-		cells[1][1]=z;
+		cells[1][2]=z;
 		c.setNumberOfAliveNeighbors(cells);
 		assertTrue(c.willRevive());
 		assertFalse(c.willDie());
